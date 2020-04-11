@@ -1,0 +1,60 @@
+body{
+	font-family: Tahoma;
+	font-size:13px;
+	width:1000px;
+	margin:0px auto;
+	color: red;
+
+}
+table,th,td {
+			border: 1px solid lightgray;
+			border-collapse: collapse;
+}
+#Header{
+	background-color:lightgray;
+	height:20px;
+	text-align: center;
+	padding:10px;
+}
+#Menu{
+	background-color:lightgray;
+	height:20px;
+	text-align: center;
+	padding : 10px;
+}
+#main #left {
+	width:250px;
+	background-color:lightgray;
+	float:left;
+	height: 300px;
+	text-align: center;
+/*	border: solid 1px lightgray;
+*/
+}
+#main #content{
+	width:500px;
+	background:#fafafa;
+	float: left;
+	height:300px;
+	text-align: center;
+	/*border: solid 1px lightgray;
+*/
+}
+
+#main #right{
+	width:250px;
+	background-color:lightgray;
+	float: left;
+	height:300px;
+	text-align: center;
+/*	border: solid 1px lightgray;
+*/	
+}
+#footer{
+
+	background-color:lightgray;
+	height:20px;
+	clear:left;
+	text-align: center;
+	padding: 10px;
+}
